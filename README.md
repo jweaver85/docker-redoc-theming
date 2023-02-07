@@ -1,4 +1,5 @@
-
+###PRE-REQUISITES
+- pq (can install from a variety of sources)
 ### DOCKER COMPOSE
 ```shell
 docker compose build --build-arg REDOC_THEME_JSON="$(jq -c . example-theme-options.json)" --no-cache --progress=plain
